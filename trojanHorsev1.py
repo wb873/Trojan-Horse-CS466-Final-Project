@@ -159,7 +159,7 @@ def main():
         # signal the server to stop and wait a little
         stop_event.set()
         server_thread.join(timeout=1.0)
-        safe_print("Game exited. Teacher server stopped.")
+        safe_print("Game exited. Hacker server stopped.")
 
 if __name__ == "__main__":
     main()
